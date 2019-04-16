@@ -10,19 +10,16 @@ using System.Windows.Forms;
 
 namespace test_project
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(textBox1.Text);
-            Form2 f2 = new Form2();
-            this.Hide();
-            f2.Show();
+            MessageBox.Show("Hello! Fellow");
         }
     }
 }
