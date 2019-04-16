@@ -20,9 +20,6 @@ namespace test_project
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(textBox1.Text);
-            Form2 f2 = new Form2();
-            this.Hide();
-            f2.Show();
         }
     }
 }
